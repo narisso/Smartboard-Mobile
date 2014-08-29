@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/label_me" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/holo_blue_light" />
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left">
+    
+    <TextView 
+        android:id="@+id/MyDeviceName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		android:layout_gravity="left"
+		android:text="@string/device_name_def"
+		/>
+    
+    <TextView 
+        android:id="@+id/MyDeviceStatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		android:text="@string/device_status_def"
+		/>
+    
+    <TextView 
+        android:id="@+id/MyDeviceOwner"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/device_status_def"
+		/>
+    
+	</LinearLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/label_peers" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/holo_blue_light" />
+    
+    <ProgressBar
+        android:id="@+id/DialogSpinningWheel"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleLarge"        
+        android:layout_height="100dp"
+        />
+    
+    <ListView 
+        android:id="@+id/DeviceList"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		/>
+	
+    	<Button
+        android:id= "@+id/GroupButton"
+        android:text="@string/group_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+	    <Button
+	        android:id= "@+id/DisconnectButton"
+	        android:text="@string/disconnect_button_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"     
+	       />
+
+ 
+	
+
+
+</LinearLayout>
