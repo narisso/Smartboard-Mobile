@@ -233,7 +233,7 @@
     <string name="save_menu_noteedit">Save</string>
     <string name="delete_menu_noteedit">Delete</string>
     <string name="comments">Comments</string>
-    <string name="base_url"> <![CDATA[ http://iic2154-2.herokuapp.com ]]> </string>
+    <string name="base_url"> <![CDATA[ http://trackpro.ing.puc.cl ]]> </string>
     <string name="change_base_url"> Change web url </string>
     
 </resources>
